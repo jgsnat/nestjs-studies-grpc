@@ -5,7 +5,7 @@ export const grpcServerOptions = {
   transport: Transport.GRPC,
   options: {
     url: '127.0.0.1:6379',
-    protoPath: join(__dirname, '/hero/hero.proto'),
+    protoPath: join('src/hero/hero.proto'),
     package: 'hero',
   },
 };
